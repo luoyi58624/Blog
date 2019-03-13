@@ -1,0 +1,1 @@
+package com.ly666.util;import lombok.Getter;import lombok.Setter;/** * @author ：luoyi * @date ：Created in 2019/3/10 10:05 * @desc : {请求异常消息类} */@Getter@Setterpublic class RequestErrorMessage {	String errorMessage;	@Override	public String toString() {		return "RequestErrorMessage{" +				"errorMessage='" + errorMessage + '\'' +				'}';	}}

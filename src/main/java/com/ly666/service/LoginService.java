@@ -1,0 +1,1 @@
+package com.ly666.service;import com.ly666.entity.Admin;/** * @author ：luoyi * @date ：Created in 2019/3/3 21:58 * @desc : {} */public interface LoginService {	Admin login(String admin_name, String admin_pwd);}
