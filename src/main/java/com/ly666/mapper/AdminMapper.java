@@ -1,0 +1,1 @@
+package com.ly666.mapper;import com.ly666.entity.Admin;import org.springframework.stereotype.Repository;/** * @author ：luoyi * @date ：Created in 2019/3/3 22:38 * @desc : {} */@Repository("UserMapper")public interface AdminMapper {	Admin login(String admin_name, String admin_pwd);}
