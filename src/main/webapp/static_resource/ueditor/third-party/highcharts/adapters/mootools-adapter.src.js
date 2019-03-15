@@ -191,7 +191,7 @@ win.HighchartsAdapter = {
 	},
 
 	/**
-	 * Get the offset of an element relative to the top left corner of the web page
+	 * Get the offset of an element relative to the top left corner of the controller page
 	 */
 	offset: function (el) {
 		var offsets = el.getPosition(); // #1496

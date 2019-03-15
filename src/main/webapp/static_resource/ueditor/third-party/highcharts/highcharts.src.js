@@ -4530,7 +4530,7 @@ Renderer = SVGRenderer;
  * START OF INTERNET EXPLORER <= 8 SPECIFIC CODE                              *
  *                                                                            *
  * For applications and websites that don't need IE support, like platform    *
- * targeted mobile apps and web apps, this code can be removed.               *
+ * targeted mobile apps and controller apps, this code can be removed.               *
  *                                                                            *
  *****************************************************************************/
 
