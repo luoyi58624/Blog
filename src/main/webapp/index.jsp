@@ -127,7 +127,7 @@
 		getPage(1,null,cid);
 	});
 	function getPage(pageNum,parentid,cid) {
-		$.post("${ctx}/jsonCategoryArticle/jsonArticle/" + pageNum,{"parentid":parentid,"cid":cid}, function (data) {
+		$.get("${ctx}/jsonCategoryArticle/jsonArticle/" + pageNum,{"parentid":parentid,"cid":cid}, function (data) {
 			var html = template('mytpl', {list: data.list});
 			$("#content").html(html);
 			//分页

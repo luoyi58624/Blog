@@ -22,10 +22,10 @@
 		<div class="username-text">用户名:</div>
 		<div class="password-text">密码:</div>
 		<div class="username-field">
-			<input type="text" name="username" id="admin_name" autocomplete="off"/>
+			<input type="text" name="adminName" id="admin_name" autocomplete="off"/>
 		</div>
 		<div class="password-field">
-			<input type="password" name="password" id="admin_pwd"/>
+			<input type="password" name="adminPwd" id="admin_pwd"/>
 		</div>
 		<input type="checkbox" name="remember" value="true" id="remember-me"/>
 		<label for="remember-me">记住用户名</label>
@@ -38,10 +38,10 @@
 <script type="text/javascript">
 	$(function () {
 		$.post("${pageContext.request.contextPath}/checkAdminCookie", function (data) {
-			console.log(data[0]);
-			if(data[0].admin_name!=null){
-				$("#admin_name").val(data[0].admin_name);
-				$("#admin_pwd").val(data[0].admin_pwd);
+			console.log(data);
+			if(admin_name!=null){
+				$("#admin_name").val(data.admin_name);
+				$("#admin_pwd").val(data.admin_pwd);
 				$("#remember-me").attr("checked",true);
 			}
 		});

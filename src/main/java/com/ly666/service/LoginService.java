@@ -1,1 +1,1 @@
-package com.ly666.service;import com.ly666.entity.Admin;/** * @author ：luoyi * @date ：Created in 2019/3/3 21:58 * @desc : {} */public interface LoginService {	Admin login(String admin_name, String admin_pwd);}
+package com.ly666.service;import com.ly666.entity.Admin;/** * @author ：luoyi * @date ：Created in 2019/3/3 21:58 * @desc : {} */public interface LoginService {	/**	 *	 * @param admin_name 管理员用户名	 * @param admin_pwd  管理员密码	 * @return           返回一个管理员对象	 */	Admin login(String admin_name, String admin_pwd);}

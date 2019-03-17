@@ -64,9 +64,6 @@
 
             <ul class="nav navbar-nav" id="nav" style="font-size: 20px">
                 <li class="active"><a href="index.jsp">博客首页</a></li>
-              <%--<li class="active"><a href="index.jsp">Java</a></li>
-                <li class="active"><a href="index.jsp">Python</a></li>
-                <li class="active"><a href="index.jsp">Web前端</a></li>--%>
             </ul>
             <a href="${pageContext.request.contextPath}/checkAdminSession" style="line-height:95px; height: 95px;font-size: 18px; color: #0a628f">
                 发布文章

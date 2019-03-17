@@ -67,7 +67,7 @@
   <sql id="Base_Column_List">
     user_id, user_name, user_pwd
   </sql>
-  <select id="selectByExample" parameterType="com.ly666.entity.UserExample" resultMap="BaseResultMap">
+  <select id="selectByExample" parameterType="com.ly666.mapper.UserExample" resultMap="BaseResultMap">
     select
     <if test="distinct">
       distinct
@@ -91,7 +91,7 @@
     delete from user
     where user_id = #{userId,jdbcType=INTEGER}
   </delete>
-  <delete id="deleteByExample" parameterType="com.ly666.entity.UserExample">
+  <delete id="deleteByExample" parameterType="com.ly666.mapper.UserExample">
     delete from user
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
@@ -128,7 +128,7 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.ly666.entity.UserExample" resultType="java.lang.Long">
+  <select id="countByExample" parameterType="com.ly666.mapper.UserExample" resultType="java.lang.Long">
     select count(*) from user
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />

@@ -1,8 +1,11 @@
-package com.ly666.entity;
+package com.ly666.mapper;
+
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository("UserExample")
 public class UserExample {
     protected String orderByClause;
 

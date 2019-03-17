@@ -87,7 +87,6 @@
 <div id="modal_content">
 	<div id="close"><img src="${pageContext.request.contextPath}/static_resource/images/delete_icon.png" alt=""></div>
 	<div class="edit_content">
-
 		<div class="item1">
 			<div>
 				<span>添加分类：</span>

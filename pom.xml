@@ -18,6 +18,8 @@
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 		<log4j.verson>2.11.1</log4j.verson>
+		<org.apache.shiro.verson>1.4.0-RC2</org.apache.shiro.verson>
+		<org.slf4j.verson>1.7.25</org.slf4j.verson>
 	</properties>
 
 	<dependencies>
@@ -87,6 +89,13 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>jsp-api</artifactId>
+			<version>2.2</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
@@ -111,7 +120,6 @@
 			<version>1.18.2</version>
 			<scope>provided</scope>
 		</dependency>
-
 
 		<!--spring-->
 		<dependency>
@@ -173,6 +181,19 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-expression</artifactId>
 			<version>5.0.7.RELEASE</version>
+		</dependency>
+
+
+		<!--aop组件-->
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjrt</artifactId>
+			<version>1.9.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>1.9.2</version>
 		</dependency>
 
 
@@ -240,6 +261,74 @@
 			<version>20160810</version>
 		</dependency>
 
+
+		<!--shiro-->
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-core</artifactId>
+			<version>${org.apache.shiro.verson}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-lang</artifactId>
+			<version>${org.apache.shiro.verson}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-cache</artifactId>
+			<version>${org.apache.shiro.verson}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-crypto-hash</artifactId>
+			<version>${org.apache.shiro.verson}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-crypto-cipher</artifactId>
+			<version>${org.apache.shiro.verson}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-config-core</artifactId>
+			<version>${org.apache.shiro.verson}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-config-ogdl</artifactId>
+			<version>${org.apache.shiro.verson}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-event</artifactId>
+			<version>${org.apache.shiro.verson}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-web</artifactId>
+			<version>${org.apache.shiro.verson}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-spring</artifactId>
+			<version>${org.apache.shiro.verson}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-ehcache</artifactId>
+			<version>${org.apache.shiro.verson}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-nop</artifactId>
+			<version>${org.slf4j.verson}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.17</version>
+		</dependency>
 
 		<!--其他-->
 		<dependency>
