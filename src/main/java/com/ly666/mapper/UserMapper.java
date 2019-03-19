@@ -1,6 +1,7 @@
 package com.ly666.mapper;
 
 import com.ly666.entity.User;
+import com.ly666.entity.UserExample;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

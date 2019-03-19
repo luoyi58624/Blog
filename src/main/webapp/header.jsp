@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, admin-scalable=no">
-    <title>撩课(itlike.com)</title>
+    <title>Blog(ly666.com)</title>
     <link rel="shortcut icon" href="favicon.ico"/>
     <link rel="stylesheet" href="static_resource/js/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="static_resource/css/base.css">
@@ -27,13 +27,12 @@
         <div class="col-md-offset-1 col-md-7">
             <ul class="top-bar-left">
                 <li style="margin-right: 20px;">
-                    <a href="#" target="_blank">
+                    <a href="#">
                         喜欢IT,就来撩课吧!
                     </a>
                 </li>
                 <li>
-                    <a href="http://www.itlike.com" target="_blank">
-
+                    <a href="#">
                         www.itlike.cm
                     </a>
                 </li>
@@ -58,7 +57,7 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-            <a class="navbar-brand" href="http://www.itlike.com/" target="_blank" style="margin-left: 180px">
+            <a class="navbar-brand" href="#" style="margin-left: 180px">
                 <img src="static_resource/images/lk_logo_sm.png" alt="撩课Logo" width="220">
             </a>
 
